@@ -1,0 +1,39 @@
+{
+  "name": "exprmt-001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "dev": "npm start",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OceboStudio/exprmt-001.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OceboStudio/exprmt-001/issues"
+  },
+  "homepage": "https://github.com/OceboStudio/exprmt-001#readme",
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.7.0",
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "fontfaceobserver": "^2.3.0",
+    "gsap": "^3.11.3",
+    "imagesloaded": "^5.0.0",
+    "ogl": "^0.0.101",
+    "split-type": "^0.3.2",
+    "three": "^0.145.0"
+  }
+}
