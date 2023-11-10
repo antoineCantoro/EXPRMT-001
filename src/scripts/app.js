@@ -1,3 +1,4 @@
+import '../styles/main.scss'
 import * as THREE from 'three'
 
 import vertexShader from '../shaders/vertex.glsl'

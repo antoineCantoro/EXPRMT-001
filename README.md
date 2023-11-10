@@ -14,7 +14,7 @@ You need to have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.c
 
 ```sh
 # Clone the project.
-git clone https://github.com/OceboStudio/exprmt-001
+git clone 
 
 # Install npm depedencies.
 npm install

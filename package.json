@@ -1,32 +1,27 @@
 {
   "name": "exprmt-001",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "source": "src/index.html",
-  "browserslist": "> 0.5%, last 2 versions, not dead",
-  "scripts": {
-    "start": "parcel src/index.html --open",
-    "dev": "npm start",
-    "clean": "rm -rf dist/*",
-    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
-    "build": "npm run clean && npm run build:parcel"
-  },
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OceboStudio/exprmt-001.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Antoine Cantoro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OceboStudio/exprmt-001/issues"
   },
   "homepage": "https://github.com/OceboStudio/exprmt-001#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "devDependencies": {
-    "@parcel/transformer-glsl": "^2.7.0",
-    "@parcel/transformer-sass": "^2.7.0",
-    "parcel": "^2.7.0"
+    "sass": "^1.69.5",
+    "vite": "^4.4.5"
   },
   "dependencies": {
     "fontfaceobserver": "^2.3.0",
@@ -34,6 +29,7 @@
     "imagesloaded": "^5.0.0",
     "ogl": "^0.0.101",
     "split-type": "^0.3.2",
-    "three": "^0.145.0"
+    "three": "^0.145.0",
+    "vite-plugin-glsl": "^1.1.2"
   }
 }

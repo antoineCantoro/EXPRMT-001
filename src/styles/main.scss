@@ -4,10 +4,9 @@ $red-color: #FD4000;
 $black-color: #050505;
 $white-color: #FFF;
 
-
-@import './styles/preloader.scss';
-@import './styles/slides.scss';
-@import './styles/buttons.scss';
+@import './preloader.scss';
+@import './slides.scss';
+@import './buttons.scss';
 
 // Soft reset
 * {
@@ -19,8 +18,8 @@ $white-color: #FFF;
 @font-face {
     font-family: "NeueBit";
     src: 
-        url("fonts/NeueBit-Bold.woff2") format("woff2"), 
-        url("fonts/NeueBit-Bold.woff")  format("woff");
+        url("../fonts/NeueBit-Bold.woff2") format("woff2"), 
+        url("../fonts/NeueBit-Bold.woff")  format("woff");
     font-weight: 700;
 }
 
