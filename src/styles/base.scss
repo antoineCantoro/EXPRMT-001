@@ -1,0 +1,63 @@
+// ======================================================
+// Base
+// ======================================================
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: $white-color;
+    background-color: $black-color;
+    
+    font-size: calc(100vw / 360 * 10);
+    
+    @media screen and (min-width: 1024px) {
+        font-size: calc(100vw / 1440 * 10);
+    }
+}
+
+body {
+
+
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "NeueBit";
+
+    font-size: calc(100vw / 390 * 10);
+}
+
+
+// Text Structuring
+// ======================================================
+
+h1 {
+    font-size: 20rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    max-width: 21.2rem;
+}
+
+img {
+    display: none;
+}
+
+
+// Canvas
+// ======================================================
+
+canvas.webgl {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+}
